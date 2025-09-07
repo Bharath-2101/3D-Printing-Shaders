@@ -1,13 +1,11 @@
 import { Canvas } from "@react-three/fiber";
-import React from "react";
 import Model from "./components/Model";
-import { OrbitControls } from "@react-three/drei";
 import { useControls } from "leva";
 
 const App = () => {
   const { Background, Speed } = useControls({
     Background: {
-      value: "#ffffff", // default color
+      value: "#ffffff",
     },
     Speed: {
       value: 0.3,
@@ -20,7 +18,6 @@ const App = () => {
     <div id="CanvasContainer">
       <Canvas style={{ backgroundColor: Background }}>
         <Model Speed={Speed} />
-        <OrbitControls />
       </Canvas>
     </div>
   );
