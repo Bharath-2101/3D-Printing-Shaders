@@ -98,7 +98,7 @@ void main() {
 export { Vertex };
 ```
 
-By adding the code and exporting them into the shaderMaterial will gives a Linear gradient on Plane. If you guys not getting the code i would recommend to watch [Shaders Tutorial](https://youtu.be/xZM8UJqN1eY?si=bttWpA9P-Cjk6Pn6) . It is just 26 minute tutorial with clear understanding.
+By adding the code and exporting them into the shaderMaterial will gives a Linear gradient on Plane. If you guys not getting the code i would recommend to watch <a href="https://youtu.be/xZM8UJqN1eY?si=bttWpA9P-Cjk6Pn6" target="_blank">Shaders Tutorial</a> . It is just 26 minute tutorial with clear understanding.
 
 <br/>
 <br/>
